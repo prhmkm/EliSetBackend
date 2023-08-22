@@ -62,5 +62,9 @@ namespace EliSetBackend.Data.Repository
             Select(o => o.Address).
             ToList();
         }
+        public Clothe GetById(int id)
+        {
+           
+        }
     }
 }

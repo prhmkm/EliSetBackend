@@ -8,5 +8,6 @@ namespace EliSetBackend.Data.Interface
         int Add(Clothe clothe);
         void Edit(Clothe clothe);
         List<GetAllClothes> GetAll(int categoryId);
+        Clothe GetById(int id);
     }
 }
